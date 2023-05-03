@@ -1,0 +1,7 @@
+git clone https://github.com/move-language/move.git
+
+
+cd move
+./scripts/dev_setup.sh -ypt
+
+cargo install --path language/tools/move-cli
